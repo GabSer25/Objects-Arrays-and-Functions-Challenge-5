@@ -15,3 +15,10 @@ const order = {
     }
 };
 order.displayOrder();
+// Task 3: Shopping Cart
+let cartItems = ["Notebook", "Backpack", "Pens"];
+cartItems.push("Water Bottle");  // Add item
+cartItems.pop();                 // Remove last item
+cartItems.unshift("Laptop Case"); // Add at beginning
+cartItems.shift();               // Remove first item
+console.log("Final Cart:", cartItems);
