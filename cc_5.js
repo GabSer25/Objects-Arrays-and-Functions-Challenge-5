@@ -45,5 +45,12 @@ function calculateTax(amount, taxRate) {
     return tax;
 }
 calculateTax(250, 0.08);
+// Task 9: Discount Application
+const applyDiscount = function(price, discount) {
+    let discountedPrice = price - (price * discount);
+    console.log(`Discounted Price: $${discountedPrice}`);
+    return discountedPrice;
+};
+applyDiscount(350, 0.20);
 
 
