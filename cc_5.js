@@ -26,3 +26,7 @@ console.log("Final Cart:", cartItems);
 let prices = [100, 200, 300];
 let discountedPrices = prices.map(price => price * 0.9); // 10% discount
 console.log("Discounted Prices:", discountedPrices);
+// Task 5: Product Availability
+let inventory = [0, 8, 12, 4, 0];
+let availableProducts = inventory.filter(qty => qty > 0); // Remove zero stock
+console.log("Available Products:", availableProducts);
