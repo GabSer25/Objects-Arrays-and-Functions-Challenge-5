@@ -30,3 +30,8 @@ console.log("Discounted Prices:", discountedPrices);
 let inventory = [0, 8, 12, 4, 0];
 let availableProducts = inventory.filter(qty => qty > 0); // Remove zero stock
 console.log("Available Products:", availableProducts);
+// Task 6: Revenue Calculation
+let sales = [500, 300, 200, 400];
+let totalRevenue = sales.reduce((acc, sale) => acc + sale, 0); // Sum all sales
+console.log(`Total Revenue: $${totalRevenue}`);
+
