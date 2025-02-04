@@ -22,3 +22,7 @@ cartItems.pop();                 // Remove last item
 cartItems.unshift("Laptop Case"); // Add at beginning
 cartItems.shift();               // Remove first item
 console.log("Final Cart:", cartItems);
+// Task 4: Price Adjustments
+let prices = [100, 200, 300];
+let discountedPrices = prices.map(price => price * 0.9); // 10% discount
+console.log("Discounted Prices:", discountedPrices);
