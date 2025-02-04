@@ -34,4 +34,8 @@ console.log("Available Products:", availableProducts);
 let sales = [500, 300, 200, 400];
 let totalRevenue = sales.reduce((acc, sale) => acc + sale, 0); // Sum all sales
 console.log(`Total Revenue: $${totalRevenue}`);
+// Task 7: Customer Search
+let customers = ["Alice", "Bob", "Charlie", "David"];
+let foundCustomer = customers.find(customer => customer === "Charlie"); // Find "Charlie"
+console.log("Found Customer:", foundCustomer);
 
